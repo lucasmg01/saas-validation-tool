@@ -13,7 +13,8 @@ export default defineNuxtConfig({
     resendApiKey: '',
     public: {
       appUrl: process.env.NUXT_PUBLIC_APP_URL || 'http://localhost:3000',
-      calendlyUrl: process.env.NUXT_PUBLIC_CALENDLY_URL || 'https://calendly.com/'
+      calendlyUrl:
+        process.env.NUXT_PUBLIC_CALENDLY_URL || 'https://cal.com/antoine-gowie/meeting'
     }
   },
   app: {

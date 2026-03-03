@@ -62,7 +62,7 @@ npm run preview
 Exemple `.env`:
 
 ```bash
-NUXT_PUBLIC_CALENDLY_URL="https://calendly.com/orange-bleu"
+NUXT_PUBLIC_CALENDLY_URL="https://cal.com/antoine-gowie/meeting"
 NUXT_PUBLIC_APP_URL="https://votre-domaine.com"
 NUXT_RESEND_API_KEY="re_xxx"
 ```
