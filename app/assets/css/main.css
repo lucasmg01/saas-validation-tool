@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;700&display=swap');
+@import 'tailwindcss';
+
+:root {
+  --night: #070b14;
+  --night-soft: #111827;
+  --line: rgba(148, 163, 184, 0.2);
+}
+
+body {
+  margin: 0;
+  font-family: 'Manrope', ui-sans-serif, system-ui;
+  background:
+    radial-gradient(circle at 0% 0%, rgba(6, 182, 212, 0.15), transparent 35%),
+    radial-gradient(circle at 100% 100%, rgba(34, 197, 94, 0.13), transparent 38%),
+    var(--night);
+  color: #e2e8f0;
+}
+
+h1,
+h2,
+h3,
+h4,
+.font-display {
+  font-family: 'Space Grotesk', ui-sans-serif, system-ui;
+}
+
+.bg-night {
+  background-color: var(--night);
+}
+
+.panel {
+  border: 1px solid var(--line);
+  background: linear-gradient(155deg, rgba(15, 23, 42, 0.88), rgba(2, 6, 23, 0.92));
+  box-shadow: 0 20px 65px rgba(2, 6, 23, 0.55);
+}
+
+.field {
+  width: 100%;
+  border-radius: 0.9rem;
+  border: 1px solid rgba(148, 163, 184, 0.25);
+  background: rgba(15, 23, 42, 0.7);
+  color: #f8fafc;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.field:focus-visible {
+  outline: none;
+  border-color: rgba(34, 211, 238, 0.65);
+  box-shadow: 0 0 0 3px rgba(34, 211, 238, 0.2);
+}
+
+button:focus-visible,
+a:focus-visible {
+  outline: 2px solid rgba(34, 211, 238, 0.8);
+  outline-offset: 2px;
+}
